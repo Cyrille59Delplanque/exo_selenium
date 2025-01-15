@@ -16,3 +16,5 @@ def browser():
     yield driver
     driver.quit()
     
+@scenario('features/e', 'Select all elements except Office and Excel file.doc')
+    
